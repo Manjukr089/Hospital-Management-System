@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+             <link rel="stylesheet" href="hospital.css">   
+                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+<body>
+    
+	<div class="top">
+		<div>
+		 Contact Us +91 96366 20000 / 01 | bapuji@hospital.com 
+		</div>
+	</div>
+	
+	<div class="logo">
+		<div>
+			<table>
+				<tr>
+					<td width="600px" style="font-size:50px;font-family:forte;"> <font color="#428bca"> Bapuji  </font><font color="#000"> Hospital</font> </td>
+					<td> <br> <br>
+						<font size="4px"> 
+                                                <h4> 
+                                                    <b> <a href="home.html"><font color="green">HOME</font></a> 
+							<a href="about.html"><font color="green"> ABOUT US</a>  
+							<a href="service.html"><font color="green">SERVICE</a>
+							<a href="doctor.html"><font color="green">DOCTORS</a> 
+							<a href="contact.html"><font color="green">CONTACT US</a>
+                                                        <a href="appointment.html"><font color="green">APPOINTMENT</font></a>
+                                                </b></h4>
+						</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div class="middle">
+            <div style="background-image:url('https://swissdigitalhealth.com/wp-content/uploads/2017/03/uberisation-sante-meet-up-1.jpg');"><br>
+		
+			<br> <br>
+                        <font size="10px">Health Care Services </h3> </font><br><br>
+			<font size="5px"> We Care About Your Health </font>
+		 
+		</div>
+	</div>
+	
+	<div class="bottom">
+		<div>
+			<table border="0">
+				<tr>
+					<td width="700px">
+
+                                            <font color="#000" size="6px"> We Have Medicare Plan Options for You! </font> <br> <br>
+                                            <font color="blue">
+Your doctors try hard to give you high quality care, but it can be a challenge to juggle information. Medicare wants to be sure that all doctors have the resources and information they need to coordinate your care.<br><br>
+Coordinated care helps make sure that people, especially the chronically ill, get the right care at the right time. At the same time, coordinated care helps prevent:
+Getting the same service more than once (when getting the services again isn't needed)<br><br>
+
+
+<h4><font color="green"> You can always see any doctor or health care provider that takes Medicare.</font></h4>
+<ul>
+<li>Help with your Medicare choices 
+<li>Estimate Medicare Costs
+<li>Find and compare Medigap policies
+<li>Check your enrollment 
+<li>Accountable Care Organizations (ACOs)
+<li>Comprehensive Primary Care initiative
+<li>Oncology Care Model	
+</ul>
+<br>
+</font>
+ </td>
+	
+					
+					<td> </td>
+				</tr>
+			
+				
+			</table>
+		</div>
+	</div>
+    
+    
+        <form action="send.php" method="POST">
+
+    <!-- Start Appointment -->
+	<div id="appointment" class="appointment-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="well-block">
+                        <div class="well-title">
+                            <h2>Book an Appointment</h2>
+                        </div>
+                        <form>
+                            <!-- Form start -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="name">Name</label>
+                                        <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md" required>
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="email">Email</label>
+                                        <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md" required>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="mobile">Mobile</label>
+                                        <input id="mobile" name="mobile" type="text" placeholder="mobile" class="form-control input-md" required>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="sex">Sex</label>
+                                        <select id="sex" name="sex" class="form-control" required>
+                                             <option value="Choose Department">Choose sex</option>
+
+                                            <option value="male">male</option>
+                                            <option value="female">female</option>
+                                            <option value="others">others</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="disease">Department</label>
+                                        <select id="disease" name="disease" class="form-control" required>
+                                            <option value="Choose Department">Choose Department</option>
+											<option value="Gynacology">Gynacology</option>
+											<option value="Dermatologist">Dermatologist</option>
+
+											<option value="Cardiologists">Cardiologists</option>
+											<option value="Endocrinologists">Endocrinologists</option>
+											<option value="Family Physicians">Family Physicians</option>
+											<option value="Infectious Disease Specialists">Infectious Disease Specialists</option>											<option value="Ophthalmologists">Ophthalmologists</option>
+                                                                                        <option value="Orthology">Orthology</option>
+											<option value="Anesthesiology">Anesthesiology</option>
+											<option value="Ayurvedic">Ayurvedic</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        
+                                          <input type="submit" class="btn btn-success" value="Submit ">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- form end -->
+
+                        <div class="nav_down">
+                            <div>
+                                &copy;  Bapuji Hospital, site designed & developed by MANJU.K.R & PRASHANTH.C & SACHIN.A.G
+
+                            </div>
+                        </div>
+
+                    </div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="well-block">
+                        <div class="well-title">
+                            <h2>Why Appointment with Us</h2><br>
+                        </div>
+                                            <ul>
+                        <div class="feature-block">
+                            <div class="feature feature-blurb-text">
+                                <li> <h4 class="feature-title">24/7 Hours Available</h4>
+                                <div class="feature-content">
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <li> <h4 class="feature-title">Experienced Staff Available</h4>
+                                <div class="feature-content">
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <li> <h4 class="feature-title">Low Price & Fees</h4>
+                                <div class="feature-content">
+                                </div>
+                            </div>
+                                            </ul>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Appointment -->
+	
+    
+    </form>
+
+</body>
+</html>
